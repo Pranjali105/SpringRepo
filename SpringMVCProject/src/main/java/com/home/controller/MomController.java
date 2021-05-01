@@ -13,5 +13,12 @@ public class MomController {
 	{
 		return "Hey... It's your Sugar...";
 	}
+	
+	@RequestMapping("/MomSugar")
+	public String getMomSugar()
+	{
+		System.out.println("In Mom's Sugar method...");
+		return "MomSugarView";
+	}
 
 }
